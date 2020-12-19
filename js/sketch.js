@@ -102,6 +102,23 @@ function draw() {
 
     }
 
+    if (copyScanLineRow >= numberOfRows) {
 
+        textSize(36);
+        strokeWeight(2);
+        textAlign(CENTER, TOP);
+        text('Press the \'S\' button on your\n keyboard to save the image', 0, height / 3, width);
+
+    }
 }
+
+function keyTyped() {
+
+    if (key === 's') {
+
+        imgCopy.save('scanpattern', 'jpg');
+
+    }
+
+  }
   
