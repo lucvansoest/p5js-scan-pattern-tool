@@ -20,7 +20,7 @@ let imgCopy;
 
 function preload(){
 
-    img = loadImage('img/input.jpg');
+    img = loadImage('img/sample.jpg');
 }
 
 function setup() {
